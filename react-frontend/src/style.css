@@ -1,0 +1,48 @@
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+  }
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+  }
+  
+  thead th:nth-child(1) {
+    width: 30%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 35%;
+  }
+  
+  th, td {
+    padding: 20px;
+  
+}
+tbody td {
+    text-align: center;
+  }
+  .btnDelete{
+      font-family: 'Courier New', Courier, monospace;
+  }
+  input {
+    border: 2px solid currentcolor;
+  }
+  input:invalid {
+    border: 2px dashed red;
+  }
+  input:invalid:focus {
+    background-image: linear-gradient(pink, lightgreen);
+  }
+    
